@@ -10,5 +10,11 @@ export default defineConfig({
       '~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap'),
     }
   },
-  plugins: [vue()]
+  plugins: [vue()],
+  server: {
+    hmr: {
+        protocol: "wss",
+        host: "nova-pasteleria.ddev.site"
+    }
+}
 })

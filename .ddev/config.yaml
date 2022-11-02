@@ -1,4 +1,4 @@
-name: boilerplate-vite-vue
+name: nova-pasteleria
 type: php
 docroot: /dist
 php_version: "8.0"
